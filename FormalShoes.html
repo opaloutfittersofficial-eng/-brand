@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formal Shoes - OPAL OUTFITTER</title>
+    <link rel="stylesheet" href="blog-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="blog-container">
+        <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i> Back to Collection</a>
+        
+        <div class="blog-header">
+            <h1>Formal Shoes</h1>
+            <div class="price">₨5,500</div>
+        </div>
+        
+        <div class="blog-content">
+            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=800" alt="Formal Shoes" class="main-image">
+            <div class="details">
+                <h2>Product Details</h2>
+                <ul>
+                    <li><strong>Material:</strong> Polished Calf Leather</li>
+                    <li><strong>Sole:</strong> Leather with Rubber Insert</li>
+                    <li><strong>Style:</strong> Classic Oxford</li>
+                    <li><strong>Colors:</strong> Black, Brown</li>
+                    <li><strong>Sizes:</strong> 39-44 EU</li>
+                </ul>
+                <p>Sophisticated formal footwear for business and special occasions. Timeless elegance.</p>
+            </div>
+        </div>
+        
+        <div class="order-form">
+            <h3>Order Now</h3>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <input type="hidden" name="product" value="Formal Shoes">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="email" name="email" placeholder="Email Address">
+                <input type="text" name="address" placeholder="Delivery Address" required>
+                <input type="number" name="quantity" placeholder="Quantity" min="1" value="1" required>
+                <textarea name="message" placeholder="Additional Notes (Size/Color)"></textarea>
+                <button type="submit">Place Order - ₨5,500</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
