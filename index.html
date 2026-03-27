@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPAL OUTFITTER - Luxury Footwear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Logo and Navigation -->
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-gem"></i>
+            <h1>OPAL OUTFITTER</h1>
+        </div>
+        <nav class="nav-icons">
+            <a href="#home" class="nav-icon" title="Home"><i class="fas fa-home"></i></a>
+            <a href="#search" class="nav-icon" title="Search"><i class="fas fa-search"></i></a>
+            <div class="fashion-dropdown">
+                <a href="#" class="nav-icon fashion-icon" title="Fashion"><i class="fas fa-palette"></i></a>
+                <div class="dropdown-content">
+                    <a href="#shoes"><i class="fas fa-shoe-prints"></i> Shoes</a>
+                    <a href="#dressing"><i class="fas fa-tshirt"></i> Dressing</a>
+                    <a href="#accessories"><i class="fas fa-gem"></i> Accessories</a>
+                </div>
+            </div>
+            <a href="mailto:your-email@gmail.com?subject=Contact%20from%20OPAL%20OUTFITTER" class="nav-icon contact-icon" title="Contact">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="animate-slide">Luxury Redefined</h2>
+            <p class="animate-slide delay-1">Discover premium footwear crafted for the modern elite</p>
+            <a href="#blogs" class="cta-button animate-slide delay-2">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs-section">
+        <h2 class="section-title animate-fade">Featured Collection</h2>
+        <div class="blogs-grid">
+            <div class="blog-card" onclick="openBlog('chunky-loafer')">
+                <img src="https://images.unsplash.com/photo-1606890658317-7d4e69c42613?w=400&h=300&fit=crop" alt="Chunky Loafer">
+                <div class="blog-content">
+                    <h3>Chunky Loafer</h3>
+                    <p class="price">₨6,000</p>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openBlog('samba-shoes')">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop" alt="Samba Shoes">
+                <div class="blog-content">
+                    <h3>Samba Shoes</h3>
+                    <p class="price">₨10,000</p>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openBlog('formal-shoes-1')">
+                <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=300&fit=crop" alt="Formal Shoes">
+                <div class="blog-content">
+                    <h3>Formal Shoes</h3>
+                    <p class="price">₨5,500</p>
+                </div>
+            </div>
+            <div class="blog-card" onclick="openBlog('formal-shoes-2')">
+                <img src="https://images.unsplash.com/photo-1605348532760-6753d2c43329?w=400&h=300&fit=crop" alt="Another Formal Shoes">
+                <div class="blog-content">
+                    <h3>Premium Formal</h3>
+                    <p class="price">₨6,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/923483351028?text=Hello%20OPAL%20OUTFITTER!%20I%27d%20like%20to%20order..." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
